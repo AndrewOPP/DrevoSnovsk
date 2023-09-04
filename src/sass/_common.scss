@@ -1,1 +1,59 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+
+.content {
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+h2,
+h1,
+h3,
+h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    -webkit-user-drag: none;
+    display: block;
+    height: auto;
+    user-select: none;
+}
+
+fieldset {
+    appearance: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

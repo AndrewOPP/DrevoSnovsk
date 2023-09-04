@@ -1,0 +1,69 @@
+.section-hero {
+    z-index: 10;
+    padding-top: 101px;
+    padding-bottom: 253px;
+    position: relative;
+    background-image: url(../images/back.png), cover;
+}
+
+.mainn{
+
+}
+
+
+
+
+.content {
+    display: block;
+ 
+}
+
+.hero-upper-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    color: white;
+}
+
+.hero-main-title {
+    height: 74px;
+    margin-top: 7px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.56px;
+    color: white;
+}
+
+.hero-upper-text {
+    height: 42px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    color: white;
+}
+
+.hero-button {
+    margin-top: 43px;
+    border: none;
+    cursor: pointer;
+    width: 178px;
+    height: 45px;
+    padding: 13px 10px;
+    background: #799A0D;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-family: GT Eesti Pro Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}

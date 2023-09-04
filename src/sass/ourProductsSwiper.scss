@@ -1,0 +1,55 @@
+.container {}
+
+.content {}
+
+.swiper-section {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.products-swiper-title {
+
+    font-size: 32px;
+    color: #1C1C1C;
+}
+
+.cards-container {
+    gap: 48px;
+    display: flex;
+    margin-top: 35px;
+    width: 264px;
+
+}
+
+.img-div {
+    padding-left: 11px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--, #FFF);
+    box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.10);
+    width: 264px;
+    height: 315px;
+}
+
+.cards-container-item {
+    
+}
+
+.cards-container-item-small-text {
+    margin-top: 15px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.cards-container-item-big-text {
+    margin-top: 10px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}

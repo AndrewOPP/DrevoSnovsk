@@ -1,0 +1,67 @@
+.section-products {
+    height: 242px;
+}
+
+.container {}
+
+.content {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.products-list {
+    display: flex;
+    position: absolute;
+    top: 540px;
+    box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 4px;
+}
+
+.products-list-item {
+    background-color: white;
+    width: 238px;
+    padding: 40px 13px 37px 13px;
+}
+
+.products-list-svg{
+    width: 94.875px;
+    height: 66px;
+    margin-left: 60px;
+}
+
+.products-list-item-title {
+    
+    margin-top: 42px;
+    color: #313131;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118%;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.firts-in-list-product{
+    padding-top: 40px;
+
+}
+
+.firts-in-list-product-title{
+    margin-bottom: 12px;
+    margin-top: 29px;
+}
+
+.products-list-item-text {
+    color: #333;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    font-family: GT Eesti Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 21px;
+}

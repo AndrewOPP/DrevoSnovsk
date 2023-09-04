@@ -1,0 +1,89 @@
+.section-about {
+    height: 522px;
+    position: relative;
+    display: flex;
+    background-color: #1C1C1C;
+}
+
+
+.img-about-company-back{
+
+    width: 1320px;
+        height: 522px;
+    background: url("../images/back-about-company.png"), lightgray 50% / cover no-repeat;
+}
+
+
+
+.section-about-content{
+z-index: 10;
+position: absolute;
+padding-bottom: 107px;
+margin-left: 233px;
+padding-top: 126px;
+width: 772px;
+top: 0;
+}
+
+.section-about-container-div-for-back {
+    background-color: #1C1C1C;
+position: absolute;
+z-index: 1;
+
+height: 522px;
+width: 570px;
+}
+
+
+.about-company {
+
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.10);
+    font-family: GT Eesti Pro Display;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #8BAF13;
+}
+
+.section-about-title {
+    margin-top: 30px;
+    color: white;
+    font-family: GT Eesti Pro Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section-about-text {
+    margin-top: 12px;
+    font-family: GT Eesti Pro Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    color: white;
+}
+
+.section-about-button {
+    border-radius: 5px;
+    border: none;
+    margin-top: 35px;
+    width: 160px;
+    height: 45px;
+    padding: 13px 35px;
+    background-color: #799A0D;
+    text-align: center;
+    font-family: GT Eesti Pro Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    
+}
