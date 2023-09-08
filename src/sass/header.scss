@@ -1,67 +1,321 @@
-.header-section {
-    backdrop-filter: blur(5px);
-    position: relative;
-}
 
-.content-header-flex{
-    z-index: 1;
-    padding-top: 20px;
-    display: flex;
+
+.header-and-hero-div {
     align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding-top: 20px;
+    background-image: url(../images/back-img-320px.png);
+    background-size: cover;
+    //     background-image: url(../images/back.png), cover;
 }
 
-.logo { 
-    color: white;
+@media only screen and (min-width: 464px) {
+.header-and-hero-div {
+    background-image: url(../images/back-img-464px.png);
+  }
 }
 
-.back-img{
-    position: absolute;
-    z-index: -1;
+@media only screen and (min-width: 744px) {
+    .header-and-hero-div {
+        background-image: url(../images/back-img-777px.png);
+    }
 }
 
+@media only screen and (min-width: 984px) {
+    .header-and-hero-div {
+        background-image: url(../images/back-img-984px.png);
+    }
+}
 
+@media only screen and (min-width: 1248px) {
+    .header-and-hero-div {
+        background-image: url(../images/back.png);
+        align-items: start;
+    }
+    
+}
 
-.back-svg-hero {
-    fill: var(--unnamed, #1C1C1C);
-    backdrop-filter: blur(5px);
-    z-index: -999;
-    position: absolute;
-    top: -43;
-    left: 0;
+.header-section {
+
+}
+
+.container {}
+
+.back-img {}
+
+.content {}
+
+.content-header-flex {
+    margin-left: 8px;
+    display: flex;
+    gap: 215px;
+}
+
+@media only screen and (min-width: 464px) {
+    .content-header-flex {
+        gap: 358px;
+    }
+}
+
+@media only screen and (min-width: 744px) {
+    .content-header-flex {
+        gap: 658px;
+    }
+}
+
+@media only screen and (min-width: 984px) {
+    .content-header-flex {
+        gap: 890px;
+    }
+}
+
+@media only screen and (min-width: 1248px) {
+    .content-header-flex {
+        gap: 0px;
+        width: 926px;
+        align-items: center;
+    }
+}
+
+.main-icon-logo {
+}
+
+.header-nav {
+    display: none;
+}
+
+@media only screen and (min-width: 1248px) {
+    .header-nav {
+
+        display: flex;
+        color: white;
+        text-align: center;
+    }
 }
 
 .header-nav-ul {
-    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    gap: 23px;
+    margin-left: 25px;
     margin-right: 171px;
+    gap: 23px
 }
 
-.header-nav-ul-li-text{
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 350;
-    line-height: normal;
-    letter-spacing: 0.32px;
+.header-nav-ul-li {}
 
-}
+.header-nav-ul-li-text {}
 
 .header-contacts {
-    display: flex;
-    gap: 48px;
+        display: none;
+        gap: 18px;
 }
 
-.header-contacts-li {}
+@media only screen and (min-width: 1248px) {
+    .header-contacts {
+        display: flex;
+        color: white;
+    }
+}
 
-.header-contacts-li-text{
+.header-contacts-li {
+    display: flex;
+    gap: 10px;
+    width: 165px;
+}
+
+.header-contacts-li-text {}
+
+.section-hero {
+    margin-top: 122px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 464px) {
+    .section-hero {
+
+        margin-top: 165px;
+    }
+}
+
+@media only screen and (min-width: 744px) {
+    .section-hero {
+        align-items: flex-start;
+        width: 731px;
+        margin-top: 102px;
+    }
+}
+
+@media only screen and (min-width: 984px) {
+    .section-hero {
+        align-items: flex-start;
+        width: 731px;
+        margin-top: 102px;
+        margin-right: 229px;
+    }
+}
+
+@media only screen and (min-width: 984px) {
+    .section-hero {
+        align-items: flex-start;
+        width: 731px;
+        margin-top: 102px;
+    }
+}
+
+
+.hero-upper-title {
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 16px;
+    text-align: center;
+    font-size: 14px;
     font-style: normal;
     font-weight: 350;
     line-height: normal;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+}
 
+@media only screen and (min-width: 464px) {
+    .hero-upper-title {
+        font-size: 22px;
+        letter-spacing: 0.44px;
+        text-transform: uppercase;
+
+    }
+}
+
+
+
+
+.hero-main-title {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+}
+
+
+
+@media only screen and (min-width: 464px) {
+    .hero-main-title {
+        font-size: 43px;
+        letter-spacing: 1.72px;
+    }
+}
+
+@media only screen and (min-width: 744px) {
+    .hero-main-title {
+        font-size: 55px;
+        font-weight: 700;
+        letter-spacing: 2.2px;
+    }
+}
+
+
+.hero-upper-text {
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+
+@media only screen and (min-width: 464px) {
+    .hero-upper-text {
+    font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 744px) {
+    .hero-upper-text {
+        font-size: 14px;
+        text-align: start;
+    }
+}
+
+.hero-button {
+    margin-bottom: 179px;
+    width: 173px;
+    border: none;
+    border-radius: 3px;
+    background: #799A0D;
+    margin-top: 25px;
+    padding: 13px 15px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 464px) {
+    .hero-button {
+    margin-bottom: 222px;
+    }
+}
+.open-modal {
+    cursor: pointer;
+    padding: 0;
+    margin-top: 12px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+@media only screen and (min-width: 1248px) {
+    .open-modal {
+        display: none;
+    }
+}
+
+.backdrop-header-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(0);
+    z-index: 100;
+}
+
+.backdrop-header-menu {
+    opacity: 0;
+    visibility: none;
+    pointer-events: auto;
+    transform: translateX(0);
+    z-index: 100;
+}
+
+.backdrop-header-menu {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(46, 47, 66, 0.4);
+    transform: translateX(100%);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }

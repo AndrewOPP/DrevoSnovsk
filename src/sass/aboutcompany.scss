@@ -1,89 +1,141 @@
+
 .section-about {
-    height: 522px;
-    position: relative;
-    display: flex;
-    background-color: #1C1C1C;
+    padding-top: 38px;
+    padding-left: 56px;
+    padding-right: 20px;
+    background-image: url(../images/about-section-img-320.png);
+    background-size: cover;
+    padding-bottom: 36px;
+}
+
+@media only screen and (min-width: 464px) {
+.section-about {
+    padding-top: 81px;
+        background-image: url(../images/about-section-img-420.png);
+        padding-bottom: 78px;
+  }
+}
+
+@media only screen and (min-width: 744px) {
+    .section-about {
+        background-image: url(../images/about-section-img-720.png);
+        padding-left: 139px;
+        padding-top: 133px;
+    }
+}
+
+@media only screen and (min-width: 984px) {
+    .section-about {
+        background-image: url(../images/about-section-img-980.png);
+        padding-left: 139px;
+        padding-top: 126px;
+        padding-bottom: 124px;
+    }
+}
+
+@media only screen and (min-width: 1248px) {
+    .section-about {
+        margin-top: 100px;
+        background-image: url(../images/about-section-img-1200.png);
+        padding-left: 250px;
+        padding-top: 126px;
+        padding-bottom: 124px;
+    }
 }
 
 
-.img-about-company-back{
+@media only screen and (min-width: 1440px) {
+    .section-about {
+        padding-left: 335px;
 
-    width: 1320px;
-        height: 522px;
-    background: url("../images/back-about-company.png"), lightgray 50% / cover no-repeat;
+    }
 }
-
-
-
-.section-about-content{
-z-index: 10;
-position: absolute;
-padding-bottom: 107px;
-margin-left: 233px;
-padding-top: 126px;
-width: 772px;
-top: 0;
-}
-
-.section-about-container-div-for-back {
-    background-color: #1C1C1C;
-position: absolute;
-z-index: 1;
-
-height: 522px;
-width: 570px;
-}
-
 
 .about-company {
 
+    color: #8BAF13;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.10);
-    font-family: GT Eesti Pro Display;
-    font-size: 26px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.5px;
-    color: #8BAF13;
 }
 
 .section-about-title {
     margin-top: 30px;
-    color: white;
-    font-family: GT Eesti Pro Display;
-    font-size: 32px;
+    color: #FFF;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    width: 249px;
+
+}
+
+@media only screen and (min-width: 464px) {
+.section-about-title {
+    width: 354px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 744px) {
+    .section-about-title {
+        width: 535px
+    }
+}
+
+@media only screen and (min-width: 984px) {
+    .section-about-title {
+        width: 700px
+    }
 }
 
 .section-about-text {
-    margin-top: 12px;
-    font-family: GT Eesti Pro Display;
-    font-size: 18px;
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 16px;
     font-style: normal;
     font-weight: 350;
     line-height: normal;
-    color: white;
+    width: 249px;
+
+}
+
+@media only screen and (min-width: 464px) {
+    .section-about-text {
+        width: 354px
+    }
+}
+
+@media only screen and (min-width: 744px) {
+    .section-about-text {
+        width: 528px
+    }
+}
+
+@media only screen and (min-width: 984px) {
+    .section-about-text {
+        width: 763px
+    }
 }
 
 .section-about-button {
-    border-radius: 5px;
-    border: none;
     margin-top: 35px;
-    width: 160px;
-    height: 45px;
     padding: 13px 35px;
-    background-color: #799A0D;
+    color: #FFF;
     text-align: center;
-    font-family: GT Eesti Pro Display;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    color: white;
-    cursor: pointer;
-    
+    border-radius: 3px;
+    background: #799A0D;
+    border: none;
+    outline: none;
 }
+
+
