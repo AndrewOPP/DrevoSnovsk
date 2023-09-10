@@ -1,4 +1,10 @@
-
+.about-header {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding-top: 20px;
+    background: #1C1C1C;
+}
 
 .header-and-hero-div {
     align-items: center;
@@ -81,6 +87,10 @@
 .main-icon-logo {
 }
 
+.main-icon-logo:hover, .main-icon-logo:focus {
+    fill: #5a7405;
+}
+
 .header-nav {
     display: none;
 }
@@ -103,7 +113,16 @@
     gap: 23px
 }
 
-.header-nav-ul-li {}
+.header-nav-ul-li {
+    transition: all, 200ms;
+}
+
+.header-nav-ul-li:hover, .header-nav-ul-li:focus  {
+    color: #92b815
+
+}
+
+
 
 .header-nav-ul-li-text {}
 
@@ -264,7 +283,16 @@
     line-height: normal;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    cursor: pointer;
+    transition: all, 200ms;
 }
+
+
+
+.hero-button:hover, .hero-button:focus {
+    background: #5a7405;
+}
+
 
 @media only screen and (min-width: 464px) {
     .hero-button {

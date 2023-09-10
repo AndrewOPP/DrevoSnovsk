@@ -136,6 +136,12 @@
     background: #799A0D;
     border: none;
     outline: none;
+    transition: all, 200ms;
+    cursor: pointer;
 }
 
 
+.section-about-button:hover,
+.section-about-button:focus {
+    background: #5a7405;
+}
