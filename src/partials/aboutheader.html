@@ -16,15 +16,15 @@
       <nav class="header-nav">
         <ul class="header-nav-ul">
           <li class="header-nav-ul-li">
-            <a href="./aboutcompany.html" class="header-nav-ul-li-text"
+            <a
+              href="./aboutcompany.html"
+              style="color: #8baf13"
+              class="header-nav-ul-li-text"
               >Про компанію</a
             >
           </li>
           <li class="header-nav-ul-li">
-            <a href="" class="header-nav-ul-li-text">Доставка та оплата</a>
-          </li>
-          <li class="header-nav-ul-li">
-            <a href="" class="header-nav-ul-li-text">Контакти</a>
+            <a href="#footer" class="header-nav-ul-li-text">Контакти</a>
           </li>
         </ul>
       </nav>
@@ -44,4 +44,84 @@
       </ul>
     </div>
   </header>
+</div>
+
+<div class="backdrop-header-menu" data-menu>
+  <div class="modal-header">
+    <button class="button-close-header" type="button" data-menu-close>
+      <svg class="" width="30" height="30">
+        <use href="./images/sprite.svg#icon-close-icon"></use>
+      </svg>
+    </button>
+
+    <nav>
+      <h2 class="header-modal-title">Розділи</h2>
+      <ul class="list-nav-modal">
+        <li class="header-nav-ul-li">
+          <a
+            href="./aboutcompany.html"
+            class="header-nav-ul-li-text header-modal-nav-ul-li-text header-nav-ul-li"
+            >Про компанію
+          </a>
+        </li>
+        <li class="header-nav-ul-li">
+          <a
+            href="#footer"
+            class="header-nav-ul-li-text header-modal-nav-ul-li-text header-nav-ul-li"
+            >Контакти</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="header-modal-information">
+      <p class="header-modal-information-tel">
+        Ми працюємо: пн-нд 9:00 - 19:00
+      </p>
+      <p class="header-modal-information-time">Телефон: +7 800 888 88 88</p>
+      <button class="header-modal-information-button">Залишити заявку</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-order-backdrop">
+  <div class="modal-order">
+    <form class="modal-order-form">
+      <button type="button" class="modal-order-form-close-button">
+        <svg class="" width="14" height="14">
+          <use href="./images/sprite.svg#icon-close-icon"></use>
+        </svg>
+      </button>
+      <h2 class="modal-order-form-title">Заповніть форму</h2>
+      <p class="modal-order-form--upper-title">
+        І найближчим часом співробітник нашої компанії зв'яжеться з Вами
+      </p>
+      <input
+        class="modal-order-form-input"
+        required
+        type="text"
+        placeholder="Ім'я"
+      />
+      <input
+        class="modal-order-form-input"
+        required
+        type="tel"
+        placeholder="Телефон"
+      />
+      <input
+        class="modal-order-form-input"
+        required
+        type="email"
+        placeholder="Email"
+      />
+      <button class="modal-order-form-button" type="submit">Відправити</button>
+
+      <div class="modal-order-form-chekbox-div">
+        <input class="modal-order-form-chekbox" type="checkbox" />
+        <p class="modal-order-form-chekbox-text">
+          Надсилаючи цю форму, ви даєте свою згоду на обробку персональних даних
+          відповідно до нашої Політики конфіденційності.
+        </p>
+      </div>
+    </form>
+  </div>
 </div>
