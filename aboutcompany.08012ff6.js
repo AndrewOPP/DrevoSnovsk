@@ -1,0 +1,2 @@
+const e={openMenuBtn:document.querySelector(".hero-button"),closeMenuBtn:document.querySelector(".modal-order-form-close-button"),openMenuBtnSec:document.querySelector(".header-modal-information-button"),menu:document.querySelector(".modal-order-backdrop")};e.openMenuBtn&&e.openMenuBtn.addEventListener("click",(()=>{e.menu.style.display="flex"})),e.closeMenuBtn.addEventListener("click",(()=>{e.menu.style.display="none"})),e.openMenuBtnSec.addEventListener("click",(()=>{e.menu.style.display="flex"}));
+//# sourceMappingURL=aboutcompany.08012ff6.js.map
